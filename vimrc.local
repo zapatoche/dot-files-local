@@ -76,18 +76,18 @@ let g:airline#extensions#tabline#enabled = 0
 
 " elm formatting
 let g:elm_format_autosave = 1
-command -nargs=? -complete=file ElmMake call elm#Make(<f-args>)
-command ElmMakeMain call elm#Make("Main.elm")
-command -nargs=? -complete=file ElmTest call elm#Test(<f-args>)
-command ElmRepl call elm#Repl()
-command ElmErrorDetail call elm#ErrorDetail()
-command ElmShowDocs call elm#ShowDocs()
-command ElmBrowseDocs call elm#BrowseDocs()
-command ElmFormat call elm#Format()
+" command -nargs=? -complete=file ElmMake call elm#Make(<f-args>)
+" command ElmMakeMain call elm#Make("Main.elm")
+" command -nargs=? -complete=file ElmTest call elm#Test(<f-args>)
+" command ElmRepl call elm#Repl()
+" command ElmErrorDetail call elm#ErrorDetail()
+" command ElmShowDocs call elm#ShowDocs()
+" command ElmBrowseDocs call elm#BrowseDocs()
+" command ElmFormat call elm#Format()
 
-augroup format_elm " {
-  autocmd BufWritePost *.elm silent execute "ElmFormat"
-augroup END " }
+" augroup format_elm " {
+"   autocmd BufWritePost *.elm silent execute "ElmFormat"
+" augroup END " }
 
 " find and replace
 command! -nargs=0 -bar Qargs execute 'args ' . QuickfixFilenames()
@@ -167,7 +167,7 @@ endif
 let g:deoplete#enable_at_startup = 1
 
 " disable vim polyglot default elm plugin
-let g:polyglot_disabled = ['elm']
+" let g:polyglot_disabled = ['elm']
 
 " vim-markdown settings
 set conceallevel=0

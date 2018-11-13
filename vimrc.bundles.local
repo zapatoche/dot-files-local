@@ -7,7 +7,7 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-obsession'
 Plug 'tpope/vim-dispatch'
 Plug 'radenling/vim-dispatch-neovim'
-Plug 'mattn/vim-fz'
+" Plug 'mattn/vim-fz'
 Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
@@ -53,23 +53,25 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'machakann/vim-highlightedyank'
 Plug 'vim-scripts/CSSMinister'
-Plug 'KabbAmine/vCoolor.vim'
+" Plug 'KabbAmine/vCoolor.vim'
 Plug 'mhinz/vim-grepper'
 Plug 'bounceme/poppy.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'lfilho/cosco.vim'
-Plug 'mattn/webapi-vim'
-Plug 'christoomey/vim-quicklink'
+" Plug 'mattn/webapi-vim'
+" Plug 'christoomey/vim-quicklink'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'JamshedVesuna/vim-markdown-preview'
-Plug 'prettier/vim-prettier'
 Plug 'markonm/traces.vim'
+Plug 'prettier/vim-prettier'
+Plug 'wsdjeg/FlyGrep.vim', {'on': ['FlyGrep']}
 " Plug 'roxma/nvim-completion-manager'
 " if has('nvim')
 "   Plug 'roxma/vim-hug-neovim-rpc'
 " endif
 " Plug 'calebeby/ncm-css'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'jesseleite/vim-agriculture', { 'on': ['AgRaw', 'RgRaw'] }
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
